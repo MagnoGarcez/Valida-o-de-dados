@@ -6,7 +6,7 @@ Obter as entradas como strings ao invés de números facilitou o tratamentos da 
 ```cpp
 gets(invalido);
 ```
-Entradas do tipo 1.3, 2.5, utilizando ponto ao invés de vírgula causaram erro para efetuar operações matemáticas. Um laço "for" foi utilizado para percorrer a string substituindo eventuais entradas desse tipo.
+Entradas do tipo "1.3" ou "2.5", utilizando ponto ao invés de vírgula causaram erro para efetuar operações matemáticas. Um laço "for" foi utilizado para percorrer a string substituindo eventuais entradas desse tipo.
 ```cpp
 for(i=0;i<5;i++){
         if (invalido[i] == '.'){
